@@ -1,0 +1,63 @@
+:root {
+    --font: monospace;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+  background-color: #9d0505;
+  padding: 0;
+  border-radius: 3px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font);
+  font-size: 15px;
+}
+
+
+.title {
+    color: white;
+    font-family: var(--font);
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: underline;
+    justify-content: center;
+    display: flex;
+}
+
+.subtitle {
+    color: white;
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+}
+
+.contact-container {
+    border: #9d0505 solid 2px;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.contact {
+    color: white;
+    font-family: var(--font);
+}
