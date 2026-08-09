@@ -6,7 +6,7 @@ body {
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: -400px;
+    background-position-x: -300px;
     border-radius: 8px;
     backdrop-filter: brightness(45%);
 }
@@ -15,6 +15,7 @@ nav {
   background-color: #9d0505;
   padding: 0;
   border-radius: 3px;
+  transition: 0.2s ease-in-out;
 }
 
 nav ul {
@@ -66,6 +67,7 @@ nav ul li a {
     justify-content: center;
     width: 25%;
     padding: 10px;
+    transition: 0.2s ease-in-out;
 /*  backdrop-filter: blur(12px); */
 }
 
